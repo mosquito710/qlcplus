@@ -1344,7 +1344,7 @@ QString WebAccess::getVCHTML()
 
             "<div class=\"swInfo\">" + QString(APPNAME) + " " + QString(APPVERSION) + "</div>"
             "</div>\n"
-            "<div style=\"position: relative; "
+            "<div class="vcmain" style=\"position: relative; "
             "width: " + QString::number(mfSize.width()) +
             "px; height: " + QString::number(mfSize.height()) + "px; "
             "background-color: " + mainFrame->backgroundColor().name() + ";\">\n";
